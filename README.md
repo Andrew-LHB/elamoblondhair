@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 
-Upload `dist/` to a static host. Domain requested in the brief: `EMorPortlandHair.com` (not purchased or connected).
+Upload `dist/` to a static host. Production domain: `https://elamoblondhair.com`.
 
 ## Editing
 
