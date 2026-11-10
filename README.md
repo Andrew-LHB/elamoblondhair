@@ -23,7 +23,7 @@ Repository: https://github.com/Andrew-LHB/elamoblondhair
 
 Every push to `main` runs `.github/workflows/deploy.yml`, builds the website, and deploys `dist/` to GitHub Pages. The repository Pages settings use GitHub Actions and the custom domain `emorportlandhair.com`.
 
-DNS is managed in Cloudflare. The apex has the four GitHub Pages A records and four IPv6 AAAA records. `www` is a CNAME to `andrew-lhb.github.io`; GitHub redirects it to the apex. These records use DNS only.
+DNS is managed in Cloudflare. The apex has the four GitHub Pages A records and four IPv6 AAAA records. `www` is a CNAME to `andrew-lhb.github.io`; GitHub redirects it to the apex. These records use DNS only. The former domain `elamoblondhair.com` is proxied through Cloudflare and has a permanent 301 redirect to the new domain, preserving paths and query strings.
 
 ## Editing
 
